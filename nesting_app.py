@@ -22,6 +22,9 @@ def render_center_logo(png_path: str, width_px: int = 220):
     except Exception:
         st.markdown("<h3 style='text-align:center;'>🌲</h3>", unsafe_allow_html=True)
 
+LOGO_PATH = "7a14a898-5611-46ed-b775-a15a4347ad93.png"
+render_center_logo(LOGO_PATH, width_px=220)  # Breite bei Bedarf anpassen
+
 st.markdown("<div style='text-align:center;'><h1 style='margin-bottom:0;'>Nesting Programm Stange 2.0</h1><p style='color:#666;font-style:italic;margin-top:2px;'>created by SPE – 'Machs dir selbst'</p></div>", unsafe_allow_html=True)
 st.markdown(
     "<div style='text-align:center; margin: 4px 0 8px 0;'>"
